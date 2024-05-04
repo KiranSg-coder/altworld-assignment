@@ -4,6 +4,8 @@ This project aims to provide a user-friendly interface for reviewing candidate p
 
 ## Hosted Link
 
+   <a> https://altworld-assignment-ten.vercel.app/ </a>
+
 ## Features
 
 - Browse through a list of candidate profiles
