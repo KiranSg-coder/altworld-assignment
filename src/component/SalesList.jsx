@@ -42,7 +42,7 @@ const SalesList = () => {
         <div className="assignmentLink">
           <h5 style={{ color: "gray" }}>Assignment Link</h5>
           <h5 style={{ color: "blue" }}>
-            <a>https://tinyurl.com</a>
+            <a>https://tiny.url/asknakdna</a>
           </h5>
         </div>
         <div className="assignmenTime">
@@ -51,7 +51,7 @@ const SalesList = () => {
         </div>
         <div className="assignmenTime">
           <h5 style={{ color: "gray" }}>Assignment Ends at</h5>
-          <h5 style={{ color: "gray" }}>6 May 2024</h5>
+          <h5 style={{ color: "gray" }}>11 March 2024</h5>
         </div>
 
         <div className="navigatebtn">

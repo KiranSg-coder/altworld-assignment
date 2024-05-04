@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
 .App {
@@ -32,7 +32,7 @@
 }
 
 .logoContainer img {
-    height: 50px;
+  height: 50px;
 }
 
 .optionsContainer {
@@ -104,7 +104,7 @@
 .newassignmentBox p {
   font-size: 11px;
   color: white;
-} 
+}
 
 .newassignmentBox button {
   width: 100%;
@@ -209,8 +209,8 @@
   flex: 1;
 }
 
-.user-details p{
-   font-size: 12px;
+.user-details p {
+  font-size: 12px;
 }
 
 .rightSideContainer {
@@ -249,12 +249,14 @@
 .questionsvideo {
   width: 100%;
   padding: 10px;
+
   /* background-color: black; */
 }
 
-.questionsvideo img{
+.questionsvideo img {
   width: 100%;
   border-radius: 10px;
+  height: 450px;
 }
 
 .btnnn {
@@ -294,7 +296,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
- 
+
 }
 
 .progress-item {
@@ -338,19 +340,19 @@
   margin-top: 30px;
 }
 
-.about p{
+.about p {
   line-height: 1;
   font-size: 12px;
   color: gray;
 }
 
-.shortlist-btn{
+.shortlist-btn {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  
+
 }
 
 .shortlist-btn button {

@@ -5,6 +5,7 @@ import { IoCube } from "react-icons/io5";
 import ShortList from "./ShortList";
 import ReviewList from "./ReviewList";
 import { FaCopy } from "react-icons/fa6";
+
 const List = () => {
   const navigate = useNavigate();
   const [active, setActive] = useState(null);
@@ -41,7 +42,7 @@ const List = () => {
         <div className="assignmentLink">
           <h5 style={{ color: "gray" }}>Assignment Link</h5>
           <h5 style={{ color: "blue" }}>
-            <a>https://tinyurl.com</a>
+            <NavLink to="/assignment">https://tiny.url/asknakdna</NavLink>
           </h5>
         </div>
         <div className="assignmenTime">
@@ -50,12 +51,12 @@ const List = () => {
         </div>
         <div className="assignmenTime">
           <h5 style={{ color: "gray" }}>Assignment Ends at</h5>
-          <h5 style={{ color: "gray" }}>6 May 2024</h5>
+          <h5 style={{ color: "gray" }}>11 March 2024</h5>
         </div>
 
         <div className="navigatebtn">
           {buttonslist.map((list) => (
-            <button className="activebtn">
+            <button className="activebtn" key={list.link}>
               <NavLink
                 exact
                 to={list.link}
